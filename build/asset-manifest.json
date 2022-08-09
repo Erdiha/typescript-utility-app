@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57c7a151.css",
+    "main.js": "/static/js/main.89c7e139.js",
+    "static/media/erdi.jpg": "/static/media/erdi.af4d5e287961436be9bd.jpg",
+    "index.html": "/index.html",
+    "main.57c7a151.css.map": "/static/css/main.57c7a151.css.map",
+    "main.89c7e139.js.map": "/static/js/main.89c7e139.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57c7a151.css",
+    "static/js/main.89c7e139.js"
+  ]
+}
