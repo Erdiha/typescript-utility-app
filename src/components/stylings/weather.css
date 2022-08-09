@@ -1,0 +1,77 @@
+ :root{
+    --primary:#F5EDDC;
+    --secondy:#CFD2CF;
+    --third-clr:#A2B5BB;
+    --fourth-red:#EB1D36;
+    --light-clr:#e4e4e4;
+    --dark-clr:#2c2c2c;
+}
+ .weather-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    background-color: #A2B5BB;
+    width: 40vw;
+    height: 40vh;
+    padding: 20px 5px 10px 5px;
+    border-radius: 9px;
+    box-shadow:  0 0 10px 1px black;
+ }
+ @keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
+  .weather-wrapper {
+    animation-name: wipe-enter;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+}
+ .weather-wrapper input{
+    position: absolute;
+    display: flex;
+    top: 30px;
+    width: 60%;
+    height: 30px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    caret-color: red;
+    text-indent:10px;
+ }
+.weather-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+ }
+ .w{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    
+ }
+ .temp{
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px;
+    color: var(--light-clr);
+    border: black 1.5 px solid;
+
+ }
+ 
