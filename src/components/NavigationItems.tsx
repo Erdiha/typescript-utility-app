@@ -13,14 +13,13 @@ const NavigationItems:React.FC<ButtonNames> = ({name}) => {
             <a  target="_blank" href="https://app.joinhandshake.com/stu/users/18554836">HandShake</a>
         </div>  }
         {name ==="contact" && <div className='navi-items contact-wrapper'>
-        <p>For any feedback or get in touch please send an email!</p>
-        <a href = "mailto: erdihaci@g.ucla.edu">Send An Email</a>
+        <p>Get in touch!</p>
+        <a href = "mailto: erdihaci@g.ucla.edu">Send an Email</a>
         </div>  }
         {name ==="about" && <div className='navi-items about-wrapper'>
-            <p> Welcome to my quirky retro website! I tried to create a site that is fun,
-                and informative. The technologies I used in this website are:
+            <p> Welcome to my website! I hope you find it fun and informative. The technologies I have used on this site are:
                     <br />
-                <b>React, Typescript, vanilla CSS, react hooks, HTML.</b>
+                <b>React, NodeJS, Express, Axios, Typescript, Vanilla CSS, react hooks, HTML.</b>
                  </p>
             </div>}
         </>

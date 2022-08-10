@@ -8,17 +8,16 @@
 }
 #calc-section{
     display: grid;
+    grid-template-rows: 20% 80%;
     justify-items: center;
     align-items: center;
-    background-color: #A2B5BB;
-    width: fit-content;
-    height: fit-content;
-    padding: 20px 5px 10px 5px;
+    max-width: 350px;
+    min-width: 350px;
+    padding: 20px 5px 10px 0px;
     border-radius: 9px;
     box-shadow:  0 0 10px 1px black;
-    margin: auto;
-    margin-top: 5vh;
-    
+    background-color: var(--third-clr);
+    margin: 13vh auto;
 }
 @keyframes wipe-enter {
 	0% {
@@ -37,7 +36,7 @@
 }
 
 .display{
-    position: relative;
+  position: relative;
     display: flex;
     width: 330px;
     height: 80px;

@@ -29,13 +29,13 @@
 .work-wrapper a{
     color: black;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     transition: 0.3s all ease;
     cursor: pointer;
    
 }
 .work-wrapper a:hover{
-    font-size:2.1rem ;
+    font-size:2.3rem ;
     transition: 0.3s all ease;
 }
 .contact-wrapper{
@@ -44,10 +44,13 @@
     background-color: white;
     font-weight: 900;
     text-align: center;
+    font-size: 1.6rem;
+    color: rgb(73, 72, 72);
 }
 .contact-wrapper a{
     text-decoration: none;
-    color: RED;
+    color: rgb(245, 74, 74);
+    font-size: 2.5rem;
 }
 .contact-wrapper a:hover{
     color: white;
@@ -57,11 +60,12 @@
     align-items: center;
     text-align: center;
     line-height: 2rem;
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: bolder;
     padding: 5rem;
 }
 .about-wrapper b{
     color: var(--fourth-red);
     font-size: 1.2rem;
+    font-size: 1.5rem;
 }

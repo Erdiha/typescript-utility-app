@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -8,9 +9,9 @@ body{
     background-color: rgb(229, 229, 229);
     font-family:Arial, Helvetica, sans-serif
 }
- body, #app, #app>div {
+ body, #root, .App{
   height: 100vh;
-  width:100vw;
+  width: 100vw;
 }
 :root{
     --primary:#F5EDDC;
@@ -45,13 +46,16 @@ body{
 .nav-wrapper ul li a{
      text-decoration: none; 
      cursor: pointer;
+     font-size: 1.2rem;
+     font-weight: bold;
+     color: var(--dark-clr); 
 }
 .icon{
     position: absolute;
     align-items: center;
     justify-content: center;
     left: 50px;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 600;
     color: var(--dark-clr); 
     cursor: pointer;
@@ -62,13 +66,17 @@ body{
    justify-content: center;
    align-items: center;
    text-align: center;
-   font-size: larger;
-   font-weight: 600;
+   font-size:xx-large;
+   font-weight: 800;
    width: 70%;
    height: 90%;
    word-wrap: break-word;
-   line-height: 2rem;
-   word-spacing: 2px;
+   line-height: 3rem;
+   word-spacing: 3px;
+}
+.greet p{
+    color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #footer-wrapper{
    position: absolute;
@@ -76,7 +84,7 @@ body{
     width: 100vw;
     bottom: 0;
     margin-top: 10px;
-    background-color: #EB1D36;
+    background-color: var(--fourth-red);
     box-shadow: inset 0px 0px 50px 1px #616161;
 }
 .footer{
@@ -89,10 +97,10 @@ body{
 }
 #main-card{
     position: absolute;
-    left:15%;
+    left:20%;
     margin:2rem 10% 2rem 161px;
     height: 70vh;
-    width:60%;
+    width:50vw;
     background-color:var(--primary);
     justify-content: center;
     align-items: center;
@@ -100,4 +108,18 @@ body{
     padding: 2.4%;
     box-shadow:inset  0px 0px 50px 5px rgb(131, 130, 130),
     0px 0px 15px 10px rgb(131, 130, 130);
+    
+}
+#retro-img{
+    position: absolute;
+    opacity: 0.2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 100%;
+    width:100%;
+    margin: auto;
+    background-position:center ;
+    z-index: 0;
+    filter: blur(10px);
 }

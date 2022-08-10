@@ -11,7 +11,7 @@ const Header:React.FC<ButtonNames>=({name,updateName})=> {
   }
     return (
         <div className='nav-wrapper'>
-            <span id='home'  onClick={handleClick} className='icon'>IconIcko</span>
+            <span id='home'  onClick={handleClick} className='icon'>Erdi Haciogullari</span>
             <nav>
                 <ul id='nav-items'>
                     <li className='list-item'>
